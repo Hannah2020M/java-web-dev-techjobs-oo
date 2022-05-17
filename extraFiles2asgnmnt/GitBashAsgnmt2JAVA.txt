@@ -1,0 +1,269 @@
+GitBashAsgnmt2JAVA
+stored in C:\Users\h19sl\Documents\2javaProjects\JavaAssignments2022\java-web-dev-techjobs-oo\extraFiles2asgnmnt
+This is IMP real Repo on Github Whose URL was submitted on grades LC page
+
+8:56 PM 5/16/2022
+
+
+==  8:56 PM 5/16/2022 ==+++================
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~
+$ cd Documents
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents (main)
+$ ls
+ 2016TEAMcse330SSHkeyForEC2Instance.txt
+ 2javaProjects/
+ DOM-and-Events-Studio/
+ Documents.iml
+ FirstProtectKidsPostponePornAndPolygamyIfYouCannotRefusePolygamyAtleastPostpone.txt
+ Git-Exercises/
+ HTTP-and-Forms-Studio/
+ JAVA/
+ LC101-studio-13/
+ LCjava2022/
+'My Music'@
+'My Pictures'@
+'My Videos'@
+ Portfolio/
+ Zoom/
+ angulatSmallGroup.txt
+ asgnment2LC2022may12/
+ assignment-4-html-me-something-Hannah2020M/
+ communication-log-ROLE/
+ communication13studio/
+ desktop.ini
+ exerRocketSimulation/
+ feb28mon2022/
+ imp/
+ java-web-dev-exercises/
+ java2022Assignments/
+ javawebdevexercises1/
+ lecture12-2022/
+ lecture14-my-zoo/
+ localBelizeBreeze/
+ myTechDoubts/
+ out/
+ partytracker/
+ tech/
+ techCloned/
+ techjobs-console-java/
+ test1/
+ toDo/
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents (main)
+$ cd asgnment2LC2022may12
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/asgnment2LC2022may12 (master)
+$ ls
+Java-web-dev-techjobs-oo.iml  extraFiles2asgnmnt/  resources/
+README.md                     out/                 src/
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/asgnment2LC2022may12 (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/h19sl/Documents/asgnment2LC2022may12/.git/
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/asgnment2LC2022may12 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   .idea/misc.xml
+        modified:   src/org/launchcode/techjobs_oo/Job.java
+        modified:   src/org/launchcode/techjobs_oo/Main.java
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        extraFiles2asgnmnt/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/asgnment2LC2022may12 (master)
+$ git add .
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/asgnment2LC2022may12 (master)
+$ git commit -m"added new extra text file"
+[master dd307c8] added new extra text file
+ 5 files changed, 327 insertions(+), 21 deletions(-)
+ create mode 100644 extraFiles2asgnmnt/2asgnmt1acode.txt
+ create mode 100644 extraFiles2asgnmnt/LCunit2JavaAsgnmt2OO.txt
+ rewrite src/org/launchcode/techjobs_oo/Main.java (92%)
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/asgnment2LC2022may12 (master)
+$ git push origin master
+Enumerating objects: 22, done.
+Counting objects: 100% (22/22), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (13/13), 3.00 KiB | 3.00 MiB/s, done.
+Total 13 (delta 6), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (6/6), completed with 6 local objects.
+To https://github.com/Hannah2020M/java-web-dev-techjobs-oo.git
+   3ca6ab8..dd307c8  master -> master
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/asgnment2LC2022may12 (master)
+$ cd ..
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents (main)
+$ cd 2javaProjects
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/2javaProjects (main)
+$ cd JavaAssignments2022
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/2javaProjects/JavaAssignments2022 (main)
+$ ls
+extraFilesjavaAsgnmnt2may2022LC/  javaAsgnmt2may2022LC/  src/
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/2javaProjects/JavaAssignments2022 (main)
+$ git init
+Initialized empty Git repository in C:/Users/h19sl/Documents/2javaProjects/JavaAssignments2022/.git/
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/2javaProjects/JavaAssignments2022 (master)
+$ git master
+git: 'master' is not a git command. See 'git --help'.
+
+The most similar command is
+        restore
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/2javaProjects/JavaAssignments2022 (master)
+$ git branch
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/2javaProjects/JavaAssignments2022 (master)
+$ git clone https://github.com/Hannah2020M/java-web-dev-techjobs-oo.git
+Cloning into 'java-web-dev-techjobs-oo'...
+remote: Enumerating objects: 180, done.
+remote: Counting objects: 100% (13/13), done.
+remote: Compressing objects: 100% (10/10), done.
+remote: Total 180 (delta 2), reused 7 (delta 0), pack-reused 167Receiving object
+
+Receiving objects: 100% (180/180), 29.13 KiB | 1.32 MiB/s, done.
+Resolving deltas: 100% (65/65), done.
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/2javaProjects/JavaAssignments2022 (master)
+$ ls
+extraFilesjavaAsgnmnt2may2022LC/  javaAsgnmt2may2022LC/
+java-web-dev-techjobs-oo/         src/
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/2javaProjects/JavaAssignments2022 (master)
+$ cd src
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/2javaProjects/JavaAssignments2022/src (master)
+$ ls
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/2javaProjects/JavaAssignments2022/src (master)
+$ cd ..
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/2javaProjects/JavaAssignments2022 (master)
+$ ls
+java-web-dev-techjobs-oo/
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/2javaProjects/JavaAssignments2022 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .idea/
+        java-web-dev-techjobs-oo/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/2javaProjects/JavaAssignments2022 (master)
+$ git add .
+warning: adding embedded git repository: java-web-dev-techjobs-oo
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> java-web-dev-techjobs-oo
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached java-web-dev-techjobs-oo
+hint:
+hint: See "git help submodule" for more information.
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/2javaProjects/JavaAssignments2022 (master)
+$ git commit -m"deletedDuplicateRepoTestedSOPLsuccessfully"
+[master (root-commit) b314701] deletedDuplicateRepoTestedSOPLsuccessfully
+ 2 files changed, 50 insertions(+)
+ create mode 100644 .idea/workspace.xml
+ create mode 160000 java-web-dev-techjobs-oo
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/2javaProjects/JavaAssignments2022 (master)
+$ git push origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/2javaProjects/JavaAssignments2022 (master)
+$ ls
+java-web-dev-techjobs-oo/
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/2javaProjects/JavaAssignments2022 (master)
+$ ls
+java-web-dev-techjobs-oo/
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/2javaProjects/JavaAssignments2022 (master)
+$ cd java-web-dev-techjobs-oo
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/2javaProjects/JavaAssignments2022/java-web-dev-techjobs-oo (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/h19sl/Documents/2javaProjects/JavaAssignments2022/java-web-dev-techjobs-oo/.git/
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/2javaProjects/JavaAssignments2022/java-web-dev-techjobs-oo (master)
+$ git branch
+* master
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/2javaProjects/JavaAssignments2022/java-web-dev-techjobs-oo (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   src/org/launchcode/techjobs_oo/Job.java
+        modified:   src/org/launchcode/techjobs_oo/Main.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/2javaProjects/JavaAssignments2022/java-web-dev-techjobs-oo (master)
+$ git add .
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/2javaProjects/JavaAssignments2022/java-web-dev-techjobs-oo (master)
+$ git commit -m"committed after deletingDuplicateRepoAndTestedSOPLsuccessfully"
+[master 42cc308] committed after deletingDuplicateRepoAndTestedSOPLsuccessfully
+ 2 files changed, 24 insertions(+), 25 deletions(-)
+ rewrite src/org/launchcode/techjobs_oo/Main.java (61%)
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/2javaProjects/JavaAssignments2022/java-web-dev-techjobs-oo (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/2javaProjects/JavaAssignments2022/java-web-dev-techjobs-oo (master)
+$ git push origin master
+Enumerating objects: 15, done.
+Counting objects: 100% (15/15), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (8/8), 752 bytes | 752.00 KiB/s, done.
+Total 8 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To https://github.com/Hannah2020M/java-web-dev-techjobs-oo.git
+   dd307c8..42cc308  master -> master
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/2javaProjects/JavaAssignments2022/java-web-dev-techjobs-oo (master)
+$
