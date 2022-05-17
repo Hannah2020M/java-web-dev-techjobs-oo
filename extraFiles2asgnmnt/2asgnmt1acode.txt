@@ -1,0 +1,270 @@
+2asgnmt1acode
+
+
+https://github.com/Hannah2020M/java-web-dev-techjobs-oo
+
+D:\LessImp\1qLimiscJava2022Apr\AssignmentGraded\2022asnmnt2techjobsOOPlc\2asgnmtSmlGrp2022e12may
+
+C:LAPTOP CG2SCNUS\Users\h19sl\Documents\asgnment2LC2022may12\extraFiles2asgnmnt
+
+The main difference between the object representation of a job and 
+the string-based representation is that the values of employer, 
+location, and the other non-ID fields are no longer strings. Instead,
+ they are classes of their own
+
+reading single character %c
+reading sequence character %s
+formatting integer %d
+
+
+
+
+== LC original code 2asgnmnt OOP 6:37 PM 5/12/2022 ===+++++++==============
+package org.launchcode.techjobs_oo;
+
+import java.util.Objects;
+
+public class CoreCompetency {
+    private int id;
+    private static int nextId = 1;
+    private String value;
+
+    public CoreCompetency() {
+        this.id = nextId;
+        nextId++;
+    }
+
+    public CoreCompetency(String value) {
+        this();
+        this.value = value;
+    }
+
+    // Custom toString, equals, and hashCode methods:
+
+    @Override
+    public String toString() {
+        return value;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof CoreCompetency)) return false;
+        CoreCompetency that = (CoreCompetency) o;
+        return id == that.id;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id);
+    }
+
+    // TODO: Use the "Generate" tool to add a getter and setter for the 'value' field but
+    //  ONLY a getter for the 'id' field.
+}
+...............-.....................
+package org.launchcode.techjobs_oo;
+
+import java.util.Objects;
+
+public class Employer {
+    private int id;
+    private static int nextId = 1;
+    private String value;
+
+    public Employer() {
+        id = nextId;
+        nextId++;
+    }
+
+    public Employer(String value) {
+        this();
+        this.value = value;
+    }
+
+    // Custom toString, equals, and hashCode methods:
+
+    @Override
+    public String toString() {
+        return value;
+    }
+
+    @Override
+    public boolean equals(Object o) {  // Two objects are equal if they have the same id.
+        if (this == o) return true;
+        if (!(o instanceof Employer)) return false;
+        Employer employer = (Employer) o;
+        return getId() == employer.getId();
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getId());
+    }
+
+    // Getters and Setters:
+
+    public int getId() {
+        return id;
+    }
+
+    public String getValue() {
+        return value;
+    }
+
+    public void setValue(String value) {
+        this.value = value;
+    }
+}
+,..........-...................................
+package org.launchcode.techjobs_oo;
+
+public class Job {
+
+    private int id;
+    private static int nextId = 1;
+
+    private String name;
+    private Employer employer;
+    private Location location;
+    private PositionType positionType;
+    private CoreCompetency coreCompetency;
+
+
+    // TODO: Add two constructors - one to initialize a unique ID and a second to initialize the
+    //  other five fields. The second constructor should also call the first in order to initialize
+    //  the 'id' field.
+
+    // TODO: Add custom equals and hashCode methods. Consider two Job objects "equal" when their id fields
+    //  match.
+
+    // TODO: Add getters for each field EXCEPT nextId. Add setters for each field EXCEPT nextID
+    //  and id.
+}
+..............-........................
+package org.launchcode.techjobs_oo;
+
+import java.util.Objects;
+
+public class Location {
+    private int id;
+    private static int nextId = 1;
+    private String value;
+
+    public Location() {
+        id = nextId;
+        nextId++;
+    }
+
+    // TODO: Add a constructor that takes a string as a parameter and assigns it to the 'value' field. The
+    //  constructor should also call the empty constructor in order to initialize the 'id' field.
+
+
+    // Custom toString, equals, and hashCode methods:
+
+    @Override
+    public String toString() {
+        return value;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Location)) return false;
+        Location location = (Location) o;
+        return getId() == location.getId();
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getId());
+    }
+
+    // Getters and Setters:
+
+    public int getId() {
+        return id;
+    }
+
+    public String getValue() {
+        return value;
+    }
+
+    public void setValue(String value) {
+        this.value = value;
+    }
+}
+................-..................
+package org.launchcode.techjobs_oo;
+
+public class Main {
+
+//    public static void main(String[] args) {
+//        Job job1 = new Job("Product tester", new Employer("ACME"), new Location("Desert"), new PositionType("Quality control"), new CoreCompetency("Persistence"));
+//        Job job2 = new Job("Web Developer", new Employer("LaunchCode"), new Location("St. Louis"), new PositionType("Front-end developer"), new CoreCompetency("JavaScript"));
+//        Job job3 = new Job("Ice cream taster", new Employer(""), new Location("Home"), new PositionType("UX"), new CoreCompetency("Taste"));
+//
+//        ArrayList<Job> jobs = new ArrayList<>();
+//        jobs.add(job1);
+//        jobs.add(job2);
+//        jobs.add(job3);
+//
+//        for (Job job : jobs){
+//            System.out.println(job);
+//        }
+//    }
+
+}
+................-................
+package org.launchcode.techjobs_oo;
+
+public class PositionType {
+    private int id;
+    private static int nextId = 1;
+    private String value;
+
+    public PositionType() {
+        id = nextId;
+        nextId++;
+    }
+
+    public PositionType(String value) {
+        this();
+        this.value = value;
+    }
+
+    // TODO: Add a custom toString() method that returns the data stored in 'value'.
+
+    // TODO: Add custom equals and hashCode methods. Consider two PositionType objects "equal" when
+    //  their id fields match.
+
+    // Getters and Setters:
+
+    public int getId() {
+        return id;
+    }
+
+    public String getValue() {
+        return value;
+    }
+
+    public void setValue(String value) {
+        this.value = value;
+    }
+}
+.....................-.................
+
+
+
+==  end of  LC original code 2asgnmnt OOP 6:37 PM 5/12/2022 ===++++++++=
+
+
+
+
+
+
+
+
+
+
+
