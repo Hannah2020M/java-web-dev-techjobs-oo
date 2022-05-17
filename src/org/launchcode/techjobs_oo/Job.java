@@ -22,9 +22,7 @@ public class Job {
         this.location = location;
         this.positionType = positionType;
         this.coreCompetency = coreCompetency;
-        public void setId(int id){
-            Job(int id);
-}
+        this.id = id;
     }
 
     //  other five fields. The second constructor should also call the first in order to initialize
