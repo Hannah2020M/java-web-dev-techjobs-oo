@@ -5,6 +5,349 @@ This is IMP real Repo on Github Whose URL was submitted on grades LC page
 8:56 PM 5/16/2022
 
 
+== 5:23 PM 6/7/2022 ==++++===========
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~
+$ cd Documents
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents (main)
+$ ls
+ 1aLCjavaPractice2022/
+ 1mysql1a/
+ 1mysql2a/
+ 2016TEAMcse330SSHkeyForEC2Instance.txt
+ 2javaProjects/
+ DOM-and-Events-Studio/
+ Documents.iml
+ FirstProtectKidsPostponePornAndPolygamyIfYouCannotRefusePolygamyAtleastPostpone.txt
+ Git-Exercises/
+ HTTP-and-Forms-Studio/
+ JAVA/
+ LC101-studio-13/
+ LCjava2022/
+ LCpracticeExercises/
+ LCpracticeJava/
+'My Music'@
+'My Pictures'@
+'My Videos'@
+ Portfolio/
+ Zoom/
+ angulatSmallGroup.txt
+ asgnment2LC2022may12/
+ assignment-4-html-me-something/
+ belizeBreeze/
+ communication-log-ROLE/
+ communication13studio/
+ desktop.ini
+ exerRocketSimulation/
+ feb28mon2022/
+ imp/
+ java-web-dev-exercises/
+ java2022Assignments/
+ javawebdevexercises1/
+ lecture12-2022/
+ lecture14-my-zoo/
+ localBelizeBreeze/
+ myTechDoubts/
+ out/
+ partytracker/
+ tech/
+ techCloned/
+ techjobs-console-java/
+ test1/
+ toDo/
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents (main)
+$ cd  techjobs-console-java
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/techjobs-console-java (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   extraFILESjavaAsgnmt1TechJobsConsole/extraIMGfilesJAVAasgnmt1.txt
+        modified:   src/org/launchcode/techjobs/console/JobData.java
+        modified:   src/org/launchcode/techjobs/console/TechJobs.java
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        extraFILESjavaAsgnmt1TechJobsConsole/Asgnmt1 Code Versions1a.txt
+        extraFILESjavaAsgnmt1TechJobsConsole/Asgnmt1 Code Versions1b.txt
+        extraFILESjavaAsgnmt1TechJobsConsole/IMGextraFILESjavaAsgnmt1TechJobsConsole/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/techjobs-console-java (master)
+$ git add .
+error: open("extraFILESjavaAsgnmt1TechJobsConsole/IMGextraFILESjavaAsgnmt1TechJobsConsole/1aIMGextraFILESjavaAsgnmt1TechJobsConsole/1dJobDataDOTjavafileRetrievesDataFromNonJavaCSVfileAndStoresinPrivatePropertyAllJobsOfTHeTypeArrayListHashMap.jpg"): Filename too long
+error: unable to index file 'extraFILESjavaAsgnmt1TechJobsConsole/IMGextraFILESjavaAsgnmt1TechJobsConsole/1aIMGextraFILESjavaAsgnmt1TechJobsConsole/1dJobDataDOTjavafileRetrievesDataFromNonJavaCSVfileAndStoresinPrivatePropertyAllJobsOfTHeTypeArrayListHashMap.jpg'
+fatal: adding files failed
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/techjobs-console-java (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   extraFILESjavaAsgnmt1TechJobsConsole/extraIMGfilesJAVAasgnmt1.txt
+        modified:   src/org/launchcode/techjobs/console/JobData.java
+        modified:   src/org/launchcode/techjobs/console/TechJobs.java
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        extraFILESjavaAsgnmt1TechJobsConsole/Asgnmt1 Code Versions1a.txt
+        extraFILESjavaAsgnmt1TechJobsConsole/Asgnmt1 Code Versions1b.txt
+        extraFILESjavaAsgnmt1TechJobsConsole/IMGextraFILESjavaAsgnmt1TechJobsConsole/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/techjobs-console-java (master)
+$ cd ..
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents (main)
+$ ls
+ 1aLCjavaPractice2022/
+ 1mysql1a/
+ 1mysql2a/
+ 2016TEAMcse330SSHkeyForEC2Instance.txt
+ 2javaProjects/
+ DOM-and-Events-Studio/
+ Documents.iml
+ FirstProtectKidsPostponePornAndPolygamyIfYouCannotRefusePolygamyAtleastPostpone.txt
+ Git-Exercises/
+ HTTP-and-Forms-Studio/
+ JAVA/
+ LC101-studio-13/
+ LCjava2022/
+ LCpracticeExercises/
+ LCpracticeJava/
+'My Music'@
+'My Pictures'@
+'My Videos'@
+ Portfolio/
+ Zoom/
+ angulatSmallGroup.txt
+ asgmnt2JobTest.jpg
+ asgnment2LC2022may12/
+ assignment-4-html-me-something/
+ belizeBreeze/
+ communication-log-ROLE/
+ communication13studio/
+ desktop.ini
+ exerRocketSimulation/
+ feb28mon2022/
+ imp/
+ java-web-dev-exercises/
+ java2022Assignments/
+ javawebdevexercises1/
+ lecture12-2022/
+ lecture14-my-zoo/
+ localBelizeBreeze/
+ myTechDoubts/
+ out/
+ partytracker/
+ tech/
+ techCloned/
+ techjobs-console-java/
+ test1/
+ toDo/
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents (main)
+$ cd  asgnment2LC2022may12
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/asgnment2LC2022may12 (master)
+$ ls
+Java-web-dev-techjobs-oo.iml  extraFiles2asgnmnt/  resources/
+README.md                     out/                 src/
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/asgnment2LC2022may12 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   src/org/launchcode/techjobs_oo/JobField.java
+        new file:   src/org/launchcode/techjobs_oo/tests/JobTest.java
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   .idea/misc.xml
+        modified:   Java-web-dev-techjobs-oo.iml
+        modified:   extraFiles2asgnmnt/LCunit2JavaAsgnmt2OO.txt
+        modified:   src/org/launchcode/techjobs_oo/CoreCompetency.java
+        modified:   src/org/launchcode/techjobs_oo/Employer.java
+        modified:   src/org/launchcode/techjobs_oo/Job.java
+        modified:   src/org/launchcode/techjobs_oo/JobField.java
+        modified:   src/org/launchcode/techjobs_oo/Location.java
+        modified:   src/org/launchcode/techjobs_oo/Main.java
+        modified:   src/org/launchcode/techjobs_oo/PositionType.java
+        modified:   src/org/launchcode/techjobs_oo/tests/JobTest.java
+
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/asgnment2LC2022may12 (master)
+$ git add .
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/asgnment2LC2022may12 (master)
+$ git commit -m"committed tests"
+[master 37ebc8d] committed tests
+ 11 files changed, 334 insertions(+), 216 deletions(-)
+ rewrite src/org/launchcode/techjobs_oo/CoreCompetency.java (91%)
+ rewrite src/org/launchcode/techjobs_oo/Employer.java (89%)
+ copy src/org/launchcode/techjobs_oo/{Employer.java => JobField.java} (61%)
+ rewrite src/org/launchcode/techjobs_oo/Location.java (93%)
+ rewrite src/org/launchcode/techjobs_oo/PositionType.java (93%)
+ create mode 100644 src/org/launchcode/techjobs_oo/tests/JobTest.java
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/asgnment2LC2022may12 (master)
+$ git push origin master
+To https://github.com/Hannah2020M/java-web-dev-techjobs-oo.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/Hannah2020M/java-web-dev-techjobs-oo.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/asgnment2LC2022may12 (master)
+$ git pull origin master
+remote: Enumerating objects: 25, done.
+remote: Counting objects: 100% (25/25), done.
+remote: Compressing objects: 100% (7/7), done.
+remote: Total 16 (delta 7), reused 15 (delta 6), pack-reused 0
+Unpacking objects: 100% (16/16), 4.07 KiB | 101.00 KiB/s, done.
+From https://github.com/Hannah2020M/java-web-dev-techjobs-oo
+ * branch            master     -> FETCH_HEAD
+   dd307c8..5d2fd21  master     -> origin/master
+Auto-merging src/org/launchcode/techjobs_oo/Job.java
+CONFLICT (content): Merge conflict in src/org/launchcode/techjobs_oo/Job.java
+Auto-merging src/org/launchcode/techjobs_oo/Main.java
+CONFLICT (content): Merge conflict in src/org/launchcode/techjobs_oo/Main.java
+Automatic merge failed; fix conflicts and then commit the result.
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/asgnment2LC2022may12 (master|MERGING)
+$ git status
+On branch master
+Your branch and 'origin/master' have diverged,
+and have 1 and 3 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Changes to be committed:
+        new file:   extraFiles2asgnmnt/GitBashAsgnmt2JAVA.txt
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+        both modified:   src/org/launchcode/techjobs_oo/Job.java
+        both modified:   src/org/launchcode/techjobs_oo/Main.java
+
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/asgnment2LC2022may12 (master|MERGING)
+$ git add .
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/asgnment2LC2022may12 (master|MERGING)
+$ git commit -m"pulled in extra stuff from remote repo forked from LC"
+[master 48590db] pulled in extra stuff from remote repo forked from LC
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/asgnment2LC2022may12 (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/asgnment2LC2022may12 (master)
+$ git push origin master
+Enumerating objects: 57, done.
+Counting objects: 100% (50/50), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (20/20), done.
+Writing objects: 100% (27/27), 4.66 KiB | 4.66 MiB/s, done.
+Total 27 (delta 13), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (13/13), completed with 7 local objects.
+To https://github.com/Hannah2020M/java-web-dev-techjobs-oo.git
+   5d2fd21..48590db  master -> master
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/asgnment2LC2022may12 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   src/org/launchcode/techjobs_oo/Job.java
+        modified:   src/org/launchcode/techjobs_oo/Main.java
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        extraFiles2asgnmnt/2asgnmt1bcode.txt
+        extraFiles2asgnmnt/extrsFilesIMgasgnmnt2/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/asgnment2LC2022may12 (master)
+$ git add .
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/asgnment2LC2022may12 (master)
+$ git commit -m"commited 4pm 2022jun7tue"
+[master e595622] commited 4pm 2022jun7tue
+ 4 files changed, 487 insertions(+), 48 deletions(-)
+ create mode 100644 extraFiles2asgnmnt/2asgnmt1bcode.txt
+ create mode 100644 extraFiles2asgnmnt/extrsFilesIMgasgnmnt2/1aJobTestRUNpassedAllTests.jpg
+ rewrite src/org/launchcode/techjobs_oo/Main.java (60%)
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/asgnment2LC2022may12 (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/asgnment2LC2022may12 (master)
+$ git push origin master
+Enumerating objects: 20, done.
+Counting objects: 100% (20/20), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (12/12), 201.56 KiB | 22.40 MiB/s, done.
+Total 12 (delta 5), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (5/5), completed with 3 local objects.
+To https://github.com/Hannah2020M/java-web-dev-techjobs-oo.git
+   48590db..e595622  master -> master
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/asgnment2LC2022may12 (master)
+$ cd ..
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents (main)
+$ ls
+ 1aLCjavaPractice2022/
+ 1mysql1a/
+ 1mysql2a/
+ 2016TEAMcse330SSHkeyForEC2Instance.txt
+ 2javaProjects/
+ DOM-and-Events-Studio/
+ Documents.iml
+ FirstProtectKidsPostponePornAndPolygamyIfYouCannotRefusePolygamyAtleastPostpone.txt
+ Git-Exercises/
+ HTTP-and-Forms-Studio/
+ JAVA/
+
+
+
+== end of 5:23 PM 6/7/2022 ===+++++++============
 ==  8:56 PM 5/16/2022 ==+++================
 h19sl@LAPTOP-CG2SCNUS MINGW64 ~
 $ cd Documents
