@@ -29,14 +29,14 @@ public class Job {
         this.location = location;
         this.positionType = positionType;
         this.coreCompetency = coreCompetency;
-<<<<<<< HEAD
+
     }//end of constructor Job with arguments
 
     //toString() method Step 5 in asgnmt2 instructions
     @Override
     public String toString() {
 
-        // create a toString method that passes the first test.
+        // created a toString method that passes the first test.
         // Since the test only checks if the returned string starts
         // and ends with a blank line, make that happen.
         String labelsAndFields = "" + "\n" +
@@ -63,7 +63,7 @@ public class Job {
         if (this.getPositionType().equals(null) || this.positionType.getValue().equals("")) {
             labelsAndFields += "Position Type: " + "Data not available\n";
         } else {
-            labelsAndFields += "Position Type: " +this.getPositionType() + "\n";
+            labelsAndFields += "Position Type: " + this.getPositionType() + "\n";
         }
 
         if (this.getCoreCompetency().equals(null) || this.coreCompetency.getValue().equals("")) {
@@ -73,10 +73,10 @@ public class Job {
         }
 
         return labelsAndFields;
-=======
-        this.id = id;
->>>>>>> 5d2fd2123a16f75a71d188ac4b7236627148af5a
+
     }
+
+
 
 
     // TODO: Add custom equals and hashCode methods. Consider two Job objects "equal"
