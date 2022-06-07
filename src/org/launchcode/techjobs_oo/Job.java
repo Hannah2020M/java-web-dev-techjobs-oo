@@ -29,6 +29,7 @@ public class Job {
         this.location = location;
         this.positionType = positionType;
         this.coreCompetency = coreCompetency;
+<<<<<<< HEAD
     }//end of constructor Job with arguments
 
     //toString() method Step 5 in asgnmt2 instructions
@@ -72,6 +73,9 @@ public class Job {
         }
 
         return labelsAndFields;
+=======
+        this.id = id;
+>>>>>>> 5d2fd2123a16f75a71d188ac4b7236627148af5a
     }
 
 
